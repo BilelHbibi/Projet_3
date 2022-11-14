@@ -1,0 +1,175 @@
+
+
+.header{
+background-color: blueviolet;
+color: white;
+height: 50px;
+line-height: 50px;
+}
+
+.header a{
+  float: right;
+  margin-top: 5px;
+}
+
+.carousel-item img{
+   width: 100%;
+   height: 500px;
+}
+
+.carousel-indicators li{
+    height: 5px;
+    background-color: rgb(108, 108, 212);
+}
+
+.over{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 206, 31, 0.359);
+    z-index: 1;
+    position: absolute;
+}
+
+.feutures {
+    text-align: center;
+}
+
+.feutures i{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    line-height: 100px;
+    color: white;
+    font-size: 50px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.feutures p{
+    word-spacing: 2px;
+    color: rgb(96, 95, 95);    
+}
+
+.feutures h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: rgb(245, 106, 103);
+    color: white;
+}
+
+.feutures h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+.our_team{
+  background-color: #eee;
+  padding: 20px;
+}
+
+.statistic{
+    width:100%;
+    height:500px;
+    background-image: url("../images/img5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    
+}
+
+.statistic .overlay{
+    padding-top: 130px;
+    background-color: rgba(0, 0, 0, 0.122);
+    width:100%;
+    height:100%;
+  }
+
+  .statistic .overlay h3{
+    color: white;
+  }
+
+  .statistic .overlay p{
+    color: white;
+    font-size: 75px;
+  }
+
+  .voiture {
+    line-height: 250px;
+  }
+
+  .voiture img{
+    width:100%;
+    height: 140px;
+  }
+
+  .colection button:hover{
+   background-color: rgb(237, 82, 82);
+   border-color: rgb(237, 82, 82);
+  }
+
+  .footer {
+    background-color: rgb(227, 124, 124);
+    padding: 20px;
+    color: white;
+  }
+
+  .footer ul{
+    list-style:none;
+  }
+
+  .footer a {
+    color: white;
+    text-decoration: none; 
+  }
+
+  .footer a:hover{
+    color: black;
+  }
+
+  .end {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .jumbotron {
+    padding: 10px;
+    display: flex;  
+    justify-content: space-between;
+    }
+
+  .jumbotron .info_blog{
+    flex: 2;
+    }
+  
+    .jumbotron .blog_image{
+      margin-top: 40px;
+      flex: 1;
+    }
+
+    .blog_detaille p{
+      line-height: 2;
+      padding: 10px;
+      text-align: justify;
+    }
+
+
+    .courses img:hover{
+       transform: scale(1.1);
+    }
+    
+    .courses img{
+      width: 250px;
+      margin: auto;
+    }
+
+  
